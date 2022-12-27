@@ -29,8 +29,9 @@ According to a tweet I published on Twitter, it has been decided to release the 
 
 ## Methodology
 
-   1) Craete Your Filters for Logger++
-   2) Set your AutoRepeater Replacement for Logger++ 
+   1) Set Your AutoRepeater Payloads 
+   2) Set AutoRepeater Payloads Response Filters in Logger++
+   3) Now Check the Logger++ Logs for Hunting ;)
 
 ## Example How to Identify SSTI
 
