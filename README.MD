@@ -65,5 +65,5 @@ So when we are browsing our target website AutoRepeater is replacing payloads in
 In this repository, I can't give you examples of all the vulnerabilities, I explained how to Weaponize Your Burp with an SSTI example in this repository, and I leave the other vulnerabilities to you.
 
 
-<img src="https://socialify.git.ci/cyspad/Weaponize-Your-Burp/image?font=KoHo&forks=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark" alt="Galaxy-Bugbounty-Checklist" width="640" height="320" />
+<img src="https://socialify.git.ci/cyspad/Weaponize-Your-Burp/image?font=KoHo&forks=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark" alt="Weaponize Your Burp" width="640" height="320" />
 
