@@ -46,7 +46,7 @@ According to a tweet I published on Twitter, it has been decided to release the 
 
    1) Go to Logger++ Tab 
    2) Click on Taggs Button in View Logs tab
-   3) Now add your response of your SSTI Payload
+   3) Now add your response of your SSTI Payload Filter
        ```Response.Body CONTAINS "3600"```
 
 ## How To Works This Methodology?
