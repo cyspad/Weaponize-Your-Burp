@@ -14,7 +14,7 @@ According to a tweet I published on Twitter, it has been decided to release the 
    2) Logger++ 
    3) AutoRepeater
 
-## Useful Regex for Weaponize
+## Useful Regex
 
    1) URL Patterns
 
