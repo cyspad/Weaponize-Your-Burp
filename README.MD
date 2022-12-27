@@ -17,8 +17,45 @@ According to a tweet I published on Twitter, it has been decided to release the 
 ## Useful Regex for Weaponize:
 
    1) URL Patterns
+
+      ```(?:http|ftp|https):\/\/(?:[\w_-]+(?:(?:\.[\w_-]+)+))(?:[\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])```
    2) Sensetive Data Exposure Keywords
-   3) Detection URL From JSON Values
+
+      ```(?i)([a-z0-9]+){0,}((_|-){0,}(\\s){0,})(APIkey|authtoken|creds|secret|secretKey|password|accessToken|token|api|apiToken)(\\s){0,}(=|:|is|>){1,} ```
+   3) JSON Values
+      ```"([^"]+)"```
+
    4) And ....
 
 ## Methodology
+
+   1) Craete Your Filters for Logger++
+   2) Set your AutoRepeater Replacement for Logger++ 
+
+## Example How to Identify SSTI
+
+### AutoRepeater Configuration
+   1) Go to AutoRepeater Tab
+   2) Add Replacement 
+   3) Set Type to:  Request Params Value
+   4) Set Match to: .*
+   5) Set Replace to: {{ 40*99 }} or any SSTI Detection Payload
+   6) Enable Regex Match
+
+ ### Logger++ Configuration 
+
+   1) Go to Logger++ Tab 
+   2) Click on Taggs Button in View Logs tab
+   3) Now add your response of your SSTI Payload
+       ```Response.Body CONTAINS "3600"
+
+## How To works this methodology?
+In this methodology we add our custom payloads in AutoRepeater and create a response of Payload filter in Logger++.
+So when we are browsing our target website AutoRepeater is replacing payloads in requests and send to server, Logger++ is logs the all AutoRepeater Requests if detect our filters in Logs you send request to Repeater and try to Exploit
+
+
+
+
+
+
+
