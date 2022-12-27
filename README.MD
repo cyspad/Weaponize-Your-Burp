@@ -47,15 +47,20 @@ According to a tweet I published on Twitter, it has been decided to release the 
    1) Go to Logger++ Tab 
    2) Click on Taggs Button in View Logs tab
    3) Now add your response of your SSTI Payload
-       ```Response.Body CONTAINS "3600"
+       ```Response.Body CONTAINS "3600"```
 
-## How To works this methodology?
-In this methodology we add our custom payloads in AutoRepeater and create a response of Payload filter in Logger++.
+## How To Works This Methodology?
+In this methodology, we add our custom payloads in AutoRepeater and create a response of Payload filter in Logger++.
 So when we are browsing our target website AutoRepeater is replacing payloads in requests and send to server, Logger++ is logs the all AutoRepeater Requests if detect our filters in Logs you send request to Repeater and try to Exploit
 
+## Sensitive Information Disclosure 
+
+   1) Go Logger++ Tab
+   2) Go Grep Value Tab
+   3) Paste the Sensitive Data Exposure Regex in filed
 
 
-
-
+# Important Note
+In this repository, I can't give you examples of all the vulnerabilities, I explained how to Weaponize Your Burp with an SSTI example in this repository, and I leave the other vulnerabilities to you.
 
 
