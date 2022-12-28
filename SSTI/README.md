@@ -13,8 +13,9 @@
     Regex Match: Enabled
     ```
     
+    And Your Custom Payloads
 2) Logger++ Filter For AutoRepeater Response of SSTI Payload
 
     ``` Response.Body CONTAINS "203840" ```
-
+    And Repsonse of Your Custom Patloads Filters
 <h4><em>Happy Hunting ;) </em><h4>
