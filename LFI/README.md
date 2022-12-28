@@ -19,4 +19,4 @@
     Response.Body CONTAINS "root:x:"
     
 
-<h4><em>Happy Huntnting ;) </em><h4>
+<h4><em>Happy Hunting ;) </em><h4>
