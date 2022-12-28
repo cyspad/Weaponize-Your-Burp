@@ -4,7 +4,7 @@
 
 ## AutoRepeater Replacement Configuration
  
-2) Replace LFI Payload:
+1) Replace LFI Payload:
 
     ```
     Type: Request Param Value
