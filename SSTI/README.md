@@ -3,12 +3,12 @@
 
 
 ## AutoRepeater Replacement Configuration 
-1) Replace any Parameters Value with SSTI Payload:
+1) Replace any Parameters Value with others CSTI Payload:
 
     ```
     Type: Request Param Value
     Match: .*
-    Replace: {{2548*80}}
+    Replace: [2548*70]
     Which: Replace All
     Regex Match: Enabled
     ```
@@ -16,6 +16,6 @@
     And Your Custom Payloads
 2) Logger++ Filter For AutoRepeater Response of SSTI Payload
 
-    ``` Response.Body CONTAINS "203840" ```
-    And Repsonse of Your Custom Patloads Filters
+    ``` Response.Body CONTAINS "178360" ```
+    And Repsonse of Your Custom others Patloads Filters
 <h4><em>Happy Hunting ;) </em><h4>
