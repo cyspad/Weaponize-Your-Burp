@@ -2,7 +2,7 @@
 #### <em>Extentions: AutoRepeater and Logger++</em>
 
 
-## AutoRepeater Replacement Configuration
+## AutoRepeater Replacement Configuration 
 1) Add Origin Header:
 
     ```
@@ -28,4 +28,4 @@
     Response.Headers CONTAINS "Access-Control-Allow-Origin: https://cyspad.info" AND Response.Headers CONTAINS "Access-Control-Allow-Credentials: true"
     
 
-<h4><em>Happy Huntnting ;) </em><h4>
+<h4><em>Happy Hunting ;) </em><h4>
