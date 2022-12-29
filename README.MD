@@ -27,11 +27,16 @@ According to a tweet I published on Twitter, it has been decided to release the 
 
    4) And ....
 
+
 # Methodology
 ## How To Works This Methodology?
 In this methodology, we add our custom payloads in AutoRepeater and create a response of Payload filter in Logger++.
 So when we are browsing our target website AutoRepeater is replacing payloads in requests and send to server, Logger++ is logs the all AutoRepeater Requests if detect our filters in Logs you send request to Repeater and try to Exploit
 
+## Important Note
 
+I have added examples of each vulnerability in this repository, but you should add more payloads. In the vulnerability examples, I'll show you how to configure and add your own custom payloads to make your burp powerful.
+
+<br>
 <img src="https://socialify.git.ci/cyspad/Weaponize-Your-Burp/image?font=KoHo&forks=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark" alt="Weaponize Your Burp" width="640" height="320" />
 
