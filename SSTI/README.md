@@ -8,7 +8,7 @@
     ```
     Type: Request Param Value
     Match: .*
-    Replace: [2548*70]
+    Replace: {{2548*70}}
     Which: Replace All
     Regex Match: Enabled
     ```
