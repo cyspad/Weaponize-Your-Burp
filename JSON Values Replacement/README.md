@@ -3,12 +3,12 @@
 
 
 ## AutoRepeater Replacement Configuration 
-1) Replace any payload in json values canary:
+1) Replace any payload in json values payloads:
 
     ```
     Type: Request String or Request Body
     Match: :"([^"]+)"
-    Replace: :"<canary>"
+    Replace: :"PAYLOAD"
     Which: Replace All
     Regex Match: Enabled
     ```
