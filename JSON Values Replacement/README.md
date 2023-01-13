@@ -8,7 +8,7 @@
     ```
     Type: Request String or Request Body
     Match: :"([^"]+)"
-    Replace: "<canary>"
+    Replace: :"<canary>"
     Which: Replace All
     Regex Match: Enabled
     ```
